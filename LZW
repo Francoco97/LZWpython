@@ -60,7 +60,7 @@ b = descomprimir(a,diccionario_ascii)
 len(frase)*8
 
 import math
-c = int(math.log(851)+1)
+c = int(math.log(len(diccionario_ascii))+1)
 
 (len(frase)*8)/(len(a)*c)
-#5192 / 1750 = 2,9668
+#62.392 / 11768 = 5,30
